@@ -75,7 +75,18 @@ button {
 }
 
 form {
-    margin-right: 8vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#form-header {
+    margin-bottom: 1em;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: column;
 }
 
 input {
