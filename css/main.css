@@ -13,6 +13,8 @@ body {
     color:#F1FAEE;
     background-color: #212751;
     font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
 }
 
 #left-container {
@@ -32,7 +34,8 @@ body {
 
 #hero-bannner {
     position: absolute;
-    width: 100%;
+    background: black;
+    width: 100%
 }
 
 #right-container {
@@ -40,6 +43,10 @@ body {
     flex-direction: column;
     justify-content: center;
     gap: 2rem;
+}
+
+#body-text {
+    margin-right: 10vw;
 }
 
 #body-text,
@@ -50,28 +57,14 @@ button,
     margin-left: 3rem;
 }
 
-#body-text {
-    margin-right: 10vw;
-}
-
-button,
-input {
-    border-radius: .5rem;
-    padding: .25rem;
-    border: 0;
-}
-
-button {
-    height: 2rem;
-    width: 10rem;
-
-    background-color: #D0507E;
-    color:#F1FAEE;
-}
-
 #form-container {
     background-color: #253872;
-    padding: 1rem 0;
+    padding: 1.5rem 0;
+}
+
+#form-header {
+    font-size: 24px;
+    font-weight: bold;
 }
 
 form {
@@ -87,10 +80,29 @@ form {
 .form-row {
     display: flex;
     flex-direction: column;
+    font-size: 14px;
 }
 
 input {
     width: 18vw;
     margin: 1rem 0;
     margin-right: 3rem;
+}
+
+button,
+input {
+    border-radius: .5rem;
+    padding: .25rem;
+    border: 0;
+}
+
+button {
+    height: 2.5rem;
+    width: 12rem;
+
+    background-color: #D0507E;
+    color:#F1FAEE;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
 }
