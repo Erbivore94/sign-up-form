@@ -11,7 +11,7 @@ body {
     flex-direction: row;
 
     color:#F1FAEE;
-    background-color: #1D3557;
+    background-color: #212751;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -65,12 +65,12 @@ button {
     height: 2rem;
     width: 10rem;
 
-    background-color: #e63946;
+    background-color: #D0507E;
     color:#F1FAEE;
 }
 
 #form-container {
-    background-color: #457B9D;
+    background-color: #253872;
     padding: 1rem 0;
 }
 
