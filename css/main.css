@@ -62,16 +62,16 @@ body {
     gap: 2rem;
 }
 
-#body-text {
-    margin-right: 10vw;
-}
-
 #body-text,
 #form-header,
 form,
 button,
 #log-in {
     margin-left: 3rem;
+}
+
+#body-text {
+    margin-right: 10vw;
 }
 
 #form-container {
@@ -102,23 +102,52 @@ form {
 
 input,
 button {
-    border-radius: .5rem;
-    padding: .25rem;
-    border: 0;
+    padding: .5rem;
 }
 
 input {
+    border-radius: .25rem;
     width: 18vw;
+    height: 2rem;
     margin: .5rem 3rem 1rem 0;
+    background-color: #253872;
+    border: solid .1rem #F1FAEE;
+    color: #F1FAEE;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: .85rem;
 }
 
 button {
+    border-radius: .5rem;
     height: 2.5rem;
     width: 12rem;
+    border: 0;
 
-    background-color: #D0507E;
-    color:#F1FAEE;
+    color: #D0507E;
+    background-color:#F1FAEE;
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
-    font-weight: normal;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #D0507E;
+    color:#F1FAEE;
+}
+
+button:focus {
+    background-color: #D0507E;
+    color:#F1FAEE;
+    border: solid .1rem #F1FAEE;
+}
+
+#log-in span {
+    color: #D0507E;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+#log-in span:hover {
+    color: #F1FAEE;
 }
