@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&family=Montserrat:wght@400;600&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -39,16 +41,13 @@ body {
     align-items: center;
     justify-content: center;
     gap: 1rem;
-    margin-top: 25vh;
+    margin-top: 27vh;
 }
 
 #title {
+    font-family: 'Cormorant Garamond', serif;
     font-size: 72px;
     font-weight: bold;
-}
-
-#logo {
-
 }
 
 /* ----- RIGHT ----- */
