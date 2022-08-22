@@ -115,6 +115,10 @@ input {
     font-size: .85rem;
 }
 
+input[type="text"]:focus {
+    border: solid .1rem #D0507E;
+}
+
 button {
     margin-top: 2rem;
     border-radius: .5rem;
