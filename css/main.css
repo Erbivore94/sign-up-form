@@ -63,10 +63,10 @@ body {
 }
 
 #body-text,
-#form-header,
-form,
 button,
-#log-in {
+#log-in,
+#form-header,
+#form-flex {
     margin-left: 3rem;
 }
 
@@ -82,16 +82,13 @@ button,
 #form-header {
     font-size: 1.5rem;
     font-weight: bold;
+    margin-bottom: 1em;
 }
 
-form {
+#form-flex {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-}
-
-#form-header {
-    margin-bottom: 1em;
 }
 
 .form-row {
@@ -119,6 +116,7 @@ input {
 }
 
 button {
+    margin-top: 2rem;
     border-radius: .5rem;
     height: 2.5rem;
     width: 12rem;
