@@ -123,6 +123,11 @@ input:focus {
     border: solid .1rem #D0507E;
 }
 
+input:invalid {
+    color: #D0507E;
+    caret-color: #F1FAEE;
+}
+
 input:-webkit-autofill, /* This prevents autofill from changing the styling */
 input:-webkit-autofill:hover, 
 input:-webkit-autofill:focus, 
