@@ -123,6 +123,14 @@ input:focus {
     border: solid .1rem #D0507E;
 }
 
+input:-webkit-autofill, /* This prevents autofill from changing the styling */
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-text-fill-color:#F1FAEE;
+}
+
 button {
     margin-top: 2rem;
     border-radius: .5rem;
