@@ -131,6 +131,10 @@ input {
     font-size: .85rem;
 }
 
+input::placeholder {
+    color: #b4beaf;
+}
+
 input:focus {
     border: solid .1rem #D0507E;
 }
