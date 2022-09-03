@@ -50,6 +50,11 @@ body {
     margin-top: 27vh;
 }
 
+.logo {
+    filter: invert(92%) sepia(3%) saturate(484%) hue-rotate(60deg) brightness(106%) contrast(98%);
+    width: min(7.5vw, 4.25rem);
+}
+
 #title {
     font-family: 'Cormorant Garamond', serif;
     font-size: min(7.5vw, 4.5rem);
